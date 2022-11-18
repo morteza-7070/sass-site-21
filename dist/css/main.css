@@ -1,0 +1,120 @@
+@font-face {
+  font-family: 'vazir';
+  src: url(C:\Users\2022\Desktop\sass-site-21\dist\font\fonts\webfonts\Vazirmatn-Regular.woff2) format(woff2); }
+
+* {
+  margin: 0;
+  padding: 0; }
+
+#main-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #4834d4; }
+
+UL {
+  display: flex;
+  list-style-type: none; }
+
+#header-home li {
+  margin: 1.5rem; }
+
+#header-home a {
+  color: #f4f4f4;
+  border-bottom: 3px transparent solid;
+  padding-bottom: 0.5rem;
+  --wekit-transition: $property $duration;
+  --ms-transition: $property $duration;
+  --o-transition: $property $duration;
+  transition: border-color 0.5s; }
+  #header-home a:hover {
+    border-color: #ccc; }
+  #header-home a.active {
+    border-color: #4834d4; }
+
+.header-content {
+  text-align: center;
+  padding: 3rem;
+  background-repeat: no-repeat;
+  width: 100%; }
+  .header-content p {
+    line-height: 2rem;
+    padding-top: 2rem; }
+
+.btn-light {
+  background-color: aqua; }
+  .btn-light:hover {
+    background-color: cadetblue; }
+
+#header {
+  background: url(C:\Users\2022\Desktop\sass-site-21\dist\img\desktop-backgrounds-23-1024x572.jpg); }
+
+.icon-1 {
+  background: url(C:\Users\2022\Desktop\sass-site-21\dist\icons\desktop.png);
+  width: 50px;
+  height: 50px; }
+
+.items {
+  display: flex;
+  padding-top: 3rem;
+  text-decoration: dashed;
+  background-color: aquamarine;
+  width: 100%; }
+  .items .item-number {
+    display: inline; }
+  .items ul li {
+    display: flex; }
+  .items .items-1 {
+    background-color: springgreen; }
+  .items .items-2 {
+    background-color: aqua; }
+  .items .items-3 {
+    background-color: #51e96b; }
+  .items .items-4 {
+    background-color: cyan; }
+  .items p {
+    border: 1px solid black;
+    text-align: center;
+    padding-top: 2rem;
+    display: block; }
+
+#home-1 {
+  text-align: center;
+  padding: 3rem;
+  text-align: center;
+  background-color: #12cee7; }
+
+.section-title {
+  padding: 3rem; }
+
+.icon-11 {
+  width: 60px;
+  height: 60px; }
+
+.icon-12 {
+  width: 60px;
+  height: 60px; }
+
+.icon-13 {
+  width: 60px;
+  height: 60px; }
+
+.icon-14 {
+  width: 60px;
+  height: 60px; }
+
+ul {
+  list-style-type: none; }
+
+#home-2 {
+  display: flex; }
+
+.icon-1 {
+  width: 60px;
+  height: 60px; }
+
+#main-footer {
+  width: 100%;
+  height: 50px;
+  background-color: black;
+  color: aliceblue; }
